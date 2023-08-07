@@ -17,7 +17,7 @@
 						];
 
 				var mapOptions = {
-					center: new google.maps.LatLng(40.7143528, -74.0059731),
+					center: new google.maps.LatLng(-26.2692379, -48.8898046),
 					zoom: 12,
 					scrollwheel: false,
 					panControl: true,
@@ -35,7 +35,7 @@
 					var bounds = new google.maps.LatLngBounds();
 					var myIcon = new google.maps.MarkerImage("assets/img/map_pin.png", null, null, null, new google.maps.Size(50, 52));
 					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.7143528, -74.0059731),
+						position: new google.maps.LatLng(-26.2692379, -48.8898046),
 						map: map,
 						icon: myIcon
 					});
